@@ -12,17 +12,11 @@ body {
 }
 
 .links-container {
-  main
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
-    align-items: center;
   display: flex;
   flex-direction: column;
-  jusify-content: center;
+  gap: 10px;
+  justify-content: center;
   align-items: center;
-  main
 }
 
 .links-container a {
