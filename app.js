@@ -10,7 +10,11 @@ class HoverShow extends HTMLElement {
     constructor() {
         super();
         this.className = 'w3-button w3-round-xlarge w3-theme-l1 w3-border link'
+        this.target = '_blank'
         const currentText = this.innerText;
+        this.onclick = () => {
+            window.location.replace(this.dataset.href)
+        }
         this.onmouseover = (ev) => {
             this.innerText = this.dataset.txt;
         }
